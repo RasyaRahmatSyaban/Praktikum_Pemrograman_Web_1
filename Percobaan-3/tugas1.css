@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 0.5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ecf0f1;
+    font-size: 1.2em;
+}
+
+.navlogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ecf0f1;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5em;
+}
+
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #3498db;
+}
+
+main {
+    padding: 3em 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+.portfolio-images {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.portfolio-images a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.portfolio-images h3 {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+.portfolio-images img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 3px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ecf0f1;
+}
