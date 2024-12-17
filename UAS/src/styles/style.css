@@ -1,0 +1,290 @@
+
+/* style.css */
+body {
+    background-color: rgb(31, 37, 50);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* head */
+.header {
+    background-color: rgb(31, 37, 50);
+    color: #F1F7F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    margin-left: 2rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 10px;
+}
+
+.logo h2{
+    margin-left: 10px;
+}
+
+.nav{
+    padding-right: 2rem;
+}
+
+.nav .bt {
+    color: #7d7d7d;
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.login-button { 
+    padding-left: 1rem;
+    background-color: #d0d0d0;
+    color: rgb(31, 37, 50);
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: rgb(31, 37, 50);
+    color: #F1F7F6;
+    border: 2px solid #d0d0d0;
+}
+/* head */
+
+/* main */
+/* Hero */
+.hero {
+    background: url('/src/image/image.png') center/cover no-repeat;
+    color: #F1F7F6;
+    text-align: start;
+    padding: 11rem 2rem 7rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: large;
+    letter-spacing: 0.2rem;
+}
+/* hero */
+
+/* main */
+.main{
+    text-align: center;
+}
+
+/* problem */
+.problem {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+}
+
+.problem h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #F1F7F6;
+}
+
+.problem #prm{
+    font-size: large;
+    width: 80rem;
+    color: #F1F7F6;
+    text-align: justify;
+}
+
+.problem #p{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+}
+/* problem */
+
+/* layer 1 */
+.layer-1{
+    height: 120rem;
+    border-top-left-radius: 9rem;
+    border-top-right-radius: 9rem; 
+    background-color: #d0d0d0;
+    text-align: justify;
+}
+
+.layer-1 h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.grafik-grid {
+    display: flex;
+    justify-content: space-around  ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.grafik-item {
+    width: 40rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grafik-item img{
+    width:  20rem;
+}
+/* layer 1 */
+
+/* layer 2 */
+.layer-2{
+    color: #F1F7F6;
+    background-color: rgb(31, 37, 50);
+    border-top-left-radius: 9rem;
+    border-top-right-radius: 9rem;
+    height: 60vw;
+}
+
+.layer-2 .bungkus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pe{
+    width: 70rem;
+    font-size: x-large;
+    text-align: justify;
+    letter-spacing: 0.3rem;
+}
+
+#gabung{
+    margin-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.layer-2 .gambar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 2rem;
+}
+
+.layer-2 img{
+    width:  26rem;
+}
+
+#kecil{
+    position: absolute;
+    margin-top: 12.5rem;
+    height: fit-content;
+    width: 10rem;
+}
+/* layer 2 */
+
+/* layer 3 */
+.layer-3 {
+    color: #F1F7F6;
+    border-top-left-radius: 9rem;
+    border-top-right-radius: 9rem; 
+    background-color: #d0d0d0;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(31, 37, 50);
+}
+
+.bks{
+    text-align: center;
+}
+
+.bks h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bag1, .bag2, .bag3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    width: 80rem;
+    height: 10rem;
+}
+
+.layer-3 p{
+    font-size: large;
+    width: 58rem;
+}
+
+.layer-3 img{
+    width: 10rem;
+}
+
+.layer-3 button {
+    background-color: rgb(31, 37, 50);
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.layer-3 button:hover {
+    text-decoration: underline;
+}
+
+.layer-3 a{
+    color: #F1F7F6;
+    text-decoration: none;
+}
+/* layer-3 */
+
+/* footer */
+.footer {
+    background-color: rgb(31, 37, 50);
+    color: #F1F7F6;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.bungkus-foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.bungkus-foot p{
+    color: #F1F7F6;
+    font-size: small;
+}
+
+#Copyright{
+    text-align: center;
+}
+/* footer */
